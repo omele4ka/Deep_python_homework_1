@@ -13,7 +13,7 @@ def is_simple_num(num):
 
 number = int(input('Введите целое число от 1 до 100000: '))
 
-if number < 1 or number > 100001:
+if number < 1 or number > 100000:
     print('Введите число в заданном диапазоне: от 1 до 100000')
 else:
     if is_simple_num(number):
